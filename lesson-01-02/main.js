@@ -1,4 +1,4 @@
-console.log('Hello World! sadfsdf')
+console.log('Hello World! sadfsdf');
 
 // инструкция - statement
 // ; - EmptyStatement
