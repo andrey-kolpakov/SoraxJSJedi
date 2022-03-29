@@ -1,3 +1,5 @@
 # soraxJS
+Кайф кайф кайф.
 
-Some comments.
+## Ссылка на плейлист «Основы JavaScript»
+https://youtube.com/playlist?list=PL363QX7S8MfSxcHzvkNEqMYbOyhLeWwem
