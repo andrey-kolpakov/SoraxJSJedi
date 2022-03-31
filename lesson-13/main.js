@@ -69,19 +69,3 @@ let newGreeting2 = (function(name){
 }('тело'))                                              //Функция, которая сама вызывается после присваивания переменной называется АНОНИМНОЙ САМОВЫЗЫВАЮЩЕЙСЯ ФУНКЦИЕЙ - SELF-INVOKING ANONYMOUS FUNCTION. Ей можно дать имя, но таким ф-иям обычно не дают имён. Если она рекурсивная то имя дать нужно, конечно. Иначе её не получится вызвать.
 
 console.log(newGreeting2)    
-
-
-
-console.log('   ')
-
-let test = function(name) {
-    return name
-}
-function test2(name){
-    return name
-}
-
-console.log(test('Саша'))
-
-console.log(test)
-console.log(test2)
