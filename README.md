@@ -24,7 +24,7 @@ https://youtube.com/playlist?list=PL363QX7S8MfSxcHzvkNEqMYbOyhLeWwem
 17. Объекты
 18. this и непрямой вызов методов
 19. Аксессоры и атрибуты свойств
-20. 
+20. Прототипы и наследование
 21. 
 22. 
 23. 
