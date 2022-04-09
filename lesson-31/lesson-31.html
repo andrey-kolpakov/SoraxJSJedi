@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <p onclick="alert('onClick atribute')">Just a pararaph</p>
+
+    <a href="javascript: alert('new message')">Some JS code on click with href atribute</a>
+
+    <br><br><br>
+
+    <input type="text" onchange="newVar = this.value">
+    <input type="button" onclick="doSomething()" value="Action!">
+
+    <script src="main.js"></script>
+    <script>
+    //Сначала выполняется весь код в тегах <script> в том порядке, в котором они объявлены на странице
+    //Когда весь код в этих тегах выполнился, начинаеттся бесконечный цикл обработки событий (event loop), при помощи которого браузер следит за событиями. Например пользователь нажал куда-то или мышку передвинул, браузер сразу ищет интересно ли это какой-то части кода
+
+    //upd описание из комментариев простое и понятное: браузер читает скрипты в два захода. Сначала все статичные и потом сидит и слушает события
+
+    //Для того, чтобы показать браузеру, что ДА ИНТЕРЕСНО, вешаются обработчики событий
+
+    window.addEventListener('mousemove', function(){
+        console.log('Mouse was moved!')     //Здесь браузер следит за движением мышью в глобальном объекте window и вызывает функцию при каждом зарегистрированном движении мышью
+    })
+
+    console.log('Text from html > body')
+    
+    </script>
+</body>
+</html>
+
