@@ -35,8 +35,8 @@ https://youtube.com/playlist?list=PL363QX7S8MfSxcHzvkNEqMYbOyhLeWwem
 28. --- Регулярные выражения 
 29. --- Класс RegExp 
 30. Strict Mode
-31. 
-32. 
-33. 
-34. 
-35. 
+31. Выполнение JS в браузере
+32. Window
+33. Location
+34. History, Screen, Navigator
+35. Dom
