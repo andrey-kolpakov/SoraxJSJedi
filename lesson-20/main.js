@@ -66,6 +66,7 @@ console.log(' ')
 
 let secondGypsy = Object.create(CatCreator).constructor('Рыжий бомжара в ошейнике', 4, 'черно-белый') //Экземпляр класса CatCreator
 secondGypsy.catGreet()
+
 console.log(' ')
 
 

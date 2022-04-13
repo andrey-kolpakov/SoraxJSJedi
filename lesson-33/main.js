@@ -13,7 +13,7 @@ console.log(location.hash)
 //Свойство hash хранит в себе данные записанные после # в адресной строке - например
 window.onhashchange = function(){
     console.log(location.hash.slice(1)) //отрежет часть возвращаемого массива (в данном случае 1 элемент массива - это #)
-    console.log(location.hash)
+    console.log(location.hash)  
 }
 //Чтобы следить за изменением hash если специальное событие 
 
